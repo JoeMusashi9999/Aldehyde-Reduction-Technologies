@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Indoor Air Research | Grand Challenges</title><meta name="description" content="A Georgia Tech Grand Challenges student team investigating indoor aldehyde exposure, community needs, and targeted gas-phase filtration."><meta name="theme-color" content="#102b43">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23102b43'/%3E%3Cpath d='M7 10h18M7 16h12M7 22h18' stroke='%23c6ac70' stroke-width='3'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head><body>
+<a class="skip" href="#main">Skip to content</a>
+<header><a class="brand" href="#"><span class="brand-mark" aria-hidden="true">≋</span><span>INDOOR AIR<br><small>GRAND CHALLENGES RESEARCH</small></span></a>
+<nav aria-label="Main navigation"><a href="#problem">The problem</a><a href="#research">Our approach</a><a href="#discovery">Discovery</a><a href="#team">The team</a></nav><a class="header-link" href="#sources">Research notes</a></header>
+<main id="main">
+<section class="hero">
+<div class="hero-copy"><p class="eyebrow light">GEORGIA TECH · STUDENT RESEARCH · FALL 2026</p><h1>Better air starts<br>with a deeper<br><em>understanding.</em></h1><p class="intro">We’re investigating how formaldehyde enters the spaces we live and work in—and whether targeted filtration can help reduce exposure.</p>
+<div class="hero-actions"><a class="button gold" href="#research">Explore our research</a><a class="text-link" href="#problem">Understand the problem</a></div><p class="hero-caption">Current phase: problem discovery &amp; stakeholder research</p></div>
+<div class="hero-figure">
+<div class="figure-top"><span>RESEARCH FOCUS / 01</span><span>HCHO</span></div>
+<div class="molecule" aria-label="Structural formula of formaldehyde: carbon double bonded to oxygen and single bonded to two hydrogens"><svg viewBox="0 0 430 300" role="img" aria-label="Formaldehyde molecular structure"><g fill="none" stroke="#c6ac70" stroke-width="3"><path d="M217 134V63M230 134V63M201 168l-77 55M243 168l77 55"/></g><g fill="#fff" font-family="Georgia,serif" font-size="62" text-anchor="middle"><text x="223" y="53">O</text><text x="223" y="180">C</text><text x="101" y="266">H</text><text x="345" y="266">H</text></g></svg></div>
+<div class="figure-bottom"><h2>An invisible pollutant.<br>A tangible research challenge.</h2><p>FORMALDEHYDE / GAS-PHASE ALDEHYDE</p></div></div></section>
+<div class="research-strip"><span>HEALTH &amp; EXPOSURE</span><span>MATERIALS &amp; CHEMISTRY</span><span>AIRFLOW &amp; INTEGRATION</span><span>COMMUNITY &amp; POLICY</span></div>
+<section id="problem" class="section">
+<div class="section-label"><span>01 / THE PROBLEM SPACE</span><span>START WITH PEOPLE</span></div>
+<div class="split-title"><h2>What’s in the air<br>we don’t see?</h2><p>Indoor air quality is a systems problem. Building materials, ventilation, everyday activities, and maintenance decisions all shape exposure. Our starting question is where a practical intervention could make the greatest difference.</p></div>
+<div class="problem-grid">
+<article><span class="number">01</span><h3>Sources in everyday spaces</h3><p>Pressed-wood furniture, adhesives, building products, and combustion can introduce formaldehyde indoors. Temperature, humidity, and ventilation affect the conditions we need to study. <a href="#source-epa">[1]</a></p></article>
+<article><span class="number">02</span><h3>A gas-phase challenge</h3><p>Particle capture and gas removal are different tasks. Our project explores media designed for aldehydes, alongside source reduction and ventilation—not as a substitute for them. <a href="#source-filters">[2]</a></p></article>
+<article><span class="number">03</span><h3>Who can act on exposure?</h3><p>Residents may have limited control over materials or ventilation. We want to understand how cost, building operations, and access to reliable information influence the options available.</p></article></div>
+<div class="system">
+<div><p class="eyebrow">WORKING SYSTEM MAP</p><h3>Follow the exposure pathway.</h3><p>A starting framework for interviews and literature review; relationships remain to be validated.</p></div><ol><li><b>Emission sources</b><span>Materials · products · combustion</span></li><li><b>Indoor conditions</b><span>Humidity · temperature · air exchange</span></li><li><b>People &amp; exposure</b><span>Time in space · activities · access</span></li><li><b>Intervention choices</b><span>Source control · ventilation · filtration</span></li></ol></div></section>
+<section id="research" class="section approach">
+<div class="section-label"><span>02 / OUR RESEARCH APPROACH</span><span>CANDIDATES, NOT CONCLUSIONS</span></div>
+<div class="split-title"><h2>Capture the molecule.<br>Keep the air moving.</h2><p>Our proposed direction is a replaceable gas-treatment layer that could integrate with existing air systems. We’re comparing material pathways before choosing a design, with airflow, safety, cost, and maintenance treated as core constraints.</p></div>
+<div class="concept-layout">
+<div class="concept-diagram">
+<div class="diagram-heading"><span>PROPOSED FILTER ARCHITECTURE</span><span>SCHEMATIC ONLY</span></div>
+<div class="filter-flow">
+<div class="flow-stage"><span class="flow-label">INLET</span><b>Indoor air</b><small>Measure upstream HCHO</small></div>
+<div class="filter-layer"><span>01</span><b>Porous<br>fiber support</b></div>
+<div class="filter-layer active"><span>02</span><b>Active<br>treatment layer</b></div>
+<div class="flow-stage"><span class="flow-label">OUTLET</span><b>Treated air</b><small>Measure downstream HCHO</small></div></div><p>Illustrative concept; no measured removal efficiency or pressure drop is available yet.</p></div><aside><p class="eyebrow">DESIGN QUESTION</p><h3>Can targeted gas treatment work without making ventilation harder?</h3><p>Removal alone is not enough. A useful filter also needs acceptable resistance to airflow, a measurable service life, and a safe replacement process.</p></aside></div>
+<div class="pathways">
+<details open><summary><span class="path-number">A</span><span>Amine-functionalized porous media<small>Primary candidate · chemical capture</small></span><span class="plus" aria-hidden="true">+</span></summary>
+<div class="detail-body"><p>Investigate an electrospun polymer support carrying amine-functionalized metal-organic frameworks (MOFs) or related sorbents to capture aldehydes through chemical interactions.</p><p><b>Questions to resolve:</b> Binding reversibility in humid air, capacity at realistic concentrations, material stability, particle shedding, and fabrication cost. Permanent capture is a hypothesis to test.</p></div></details>
+<details><summary><span class="path-number">B</span><span>Base-mediated chemical conversion<small>Alternative candidate · reaction chemistry</small></span><span class="plus" aria-hidden="true">+</span></summary>
+<div class="detail-body"><p>Explore whether a supported basic medium can convert formaldehyde through a Cannizzaro-type pathway under relevant operating conditions.</p><p><b>Questions to resolve:</b> Reaction rate, water requirements, reagent consumption, containment, and methanol/formate products. This pathway cannot be assumed to provide continuous, unlimited treatment.</p></div></details>
+<details><summary><span class="path-number">C</span><span>Catalytic oxidation<small>Alternative candidate · pollutant conversion</small></span><span class="plus" aria-hidden="true">+</span></summary>
+<div class="detail-body"><p>Assess catalytic materials that could promote oxidation of aldehydes. Photocatalytic and non-photocatalytic routes require different operating conditions.</p><p><b>Questions to resolve:</b> Conversion at low concentrations, required light or energy input, incomplete-reaction products, humidity effects, and catalyst deactivation. Lifetime and safety must be measured.</p></div></details></div>
+<div class="measurement"><h3>What we plan to measure</h3>
+<div><b>Gas removal</b><span>Inlet vs. outlet concentration</span></div>
+<div><b>Airflow resistance</b><span>Pressure drop at defined flow</span></div>
+<div><b>Service life</b><span>Breakthrough &amp; capacity</span></div>
+<div><b>Practical safety</b><span>Byproducts &amp; media stability</span></div></div></section>
+<section id="discovery" class="section">
+<div class="section-label"><span>03 / GRAND CHALLENGES</span><span>DISCOVER BEFORE DESIGNING</span></div>
+<div class="split-title"><h2>A technical question.<br>A human-centered process.</h2><p>PUBP 1142 asks teams to understand complex, open-ended societal problems through collaboration and bottom-up research. Our fall work connects the chemistry of indoor air with the experiences of occupants and the constraints of building operators.</p></div>
+<div class="discovery-grid">
+<article><p class="eyebrow">CHECKPOINT 01</p><h3>Build the foundation</h3><p>Define why this problem matters to our team. Establish shared responsibilities and investigate the exposure settings where our assumptions need the most scrutiny.</p><span class="deliverable">Team foundation · problem motivation</span></article>
+<article><p class="eyebrow">CHECKPOINT 02</p><h3>Listen &amp; map the system</h3><p>Plan interviews with occupants, facilities teams, exposure specialists, and filtration experts. Use primary and secondary research to develop empathy and system maps.</p><span class="deliverable">Stakeholder research · collaboration</span></article>
+<article><p class="eyebrow">CHECKPOINT 03</p><h3>Show what we learned</h3><p>Present evidence, uncertainties, and the less obvious features of the problem. Carry a grounded understanding into future solution development.</p><span class="deliverable">Problem-space synthesis · reflection</span></article></div>
+<div class="stakeholder-box">
+<div><p class="eyebrow">PLANNED STAKEHOLDER RESEARCH</p><h3>The right questions<br>need different perspectives.</h3><p>These are outreach priorities from our proposal, not confirmed partnerships or completed interviews.</p></div>
+<div class="stakeholder-list">
+<details><summary>Occupants &amp; housing communities</summary><p>What concerns do people notice? Who controls ventilation and maintenance? How would an intervention affect affordability and trust?</p></details>
+<details><summary>Facilities &amp; HVAC professionals</summary><p>What are the airflow, installation, maintenance, and procurement constraints? What evidence would be needed before a pilot?</p></details>
+<details><summary>Health, exposure &amp; policy specialists</summary><p>Which measurement methods and exposure benchmarks fit the setting? How should uncertainty and potential health benefits be communicated?</p></details>
+<details><summary>Materials &amp; filtration researchers</summary><p>Which chemistries merit comparison? What is already commercially available? Where are stability, cost, and scale-up likely to limit a concept?</p></details></div></div>
+<div class="next-step"><span>LOOKING AHEAD</span><h3>From discovery to a controlled proof of concept.</h3><p>After reviewing the problem evidence, select candidate media for supervised bench evaluation. Any future campus pilot would follow safety review, facilities approval, and successful laboratory validation.</p></div></section>
+<section id="team" class="section team-section">
+<div class="section-label"><span>04 / THE TEAM</span><span>FIVE STUDENTS · FOUR DISCIPLINES</span></div>
+<div class="split-title"><h2>Different disciplines.<br>A shared question.</h2><p>Our working research areas connect materials and chemistry with transport, building systems, and human exposure. Roles are a starting point for collaboration and will evolve as we learn.</p></div>
+<div class="team-grid">
+<article><span>BME</span><h3>Shohom</h3><p>Chemistry expertise, filtration industry, and exposure stakeholders</p></article>
+<article><span>MSE</span><h3>Aegean</h3><p>Building materials, resins, and off-gassing behavior</p></article>
+<article><span>ME</span><h3>Ernest</h3><p>Ventilation, HVAC constraints, and mechanical integration</p></article>
+<article><span>AE</span><h3>Derek</h3><p>Gas transport, diffusion modeling, and measurement methods</p></article>
+<article><span>BME</span><h3>Joanna</h3><p>Indoor exposure, housing conditions, and occupant perspectives</p></article></div></section>
+<section id="sources" class="section sources">
+<div class="section-label"><span>05 / RESEARCH NOTES</span><span>EVIDENCE &amp; OPEN QUESTIONS</span></div>
+<div class="sources-layout">
+<div><h2>Keep the evidence<br>in view.</h2><p>This site summarizes an early project proposal. Proposed mechanisms and future pilots are research directions; the team has not reported experimental performance here.</p><p class="note">The proposal’s numerical cancer-risk multipliers are not reproduced as findings. Their sources, assumptions, units, and modeling methods need review before use. No health benefit has been demonstrated by this project.</p></div><ol class="source-list"><li id="source-epa"><a href="https://www.epa.gov/indoor-air-quality-iaq/what-should-i-know-about-formaldehyde-and-indoor-air-quality" target="_blank" rel="noopener">EPA: Formaldehyde &amp; indoor air quality</a><p>Background on sources, indoor conditions, and exposure reduction.</p></li><li id="source-filters"><a href="https://www.epa.gov/indoor-air-quality-iaq/air-cleaners-and-air-filters-home" target="_blank" rel="noopener">EPA: Air cleaners &amp; air filters</a><p>Filtration in the context of source control and ventilation.</p></li><li><span class="source-title">Team project proposal</span><p>Targeted Indoor Aldehyde Remediation and Lifetime Cancer Risk Mitigation. Working document supplied by the team.</p></li><li><span class="source-title">PUBP 1142: Teams and Collaboration</span><p>Fall 2026 syllabus. Course framework for team development, stakeholder engagement, and problem discovery.</p></li></ol></div></section></main>
+<footer><a class="brand" href="#"><span class="brand-mark" aria-hidden="true">≋</span><span>INDOOR AIR<br><small>GRAND CHALLENGES RESEARCH</small></span></a><p>Georgia Tech Grand Challenges student project<br>Fall 2026 · Early-stage research</p><p class="footer-note">Student-authored research website.<br>Does not represent an institutional endorsement.</p></footer>
+</body></html>
